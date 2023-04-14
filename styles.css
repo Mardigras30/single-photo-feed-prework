@@ -1,0 +1,57 @@
+.heading {
+    background-color: white;
+    text-align: center;
+}
+.background {
+    background-color: rgb(226, 217, 217);
+}
+.post {
+    background: white;
+}
+.post  {
+    max-width: 600px;
+    margin: 20px auto;
+    border: 1px solid #ddd;
+  }
+  
+  .post header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px;
+  }
+  
+  .post header h2 {
+    font-size: 1.2rem;
+    margin: 0;
+  }
+  
+  .container {
+    display: flex;
+    align-items: center;
+  }
+  
+  .container .date {
+    font-size: 0.9rem;
+    color: #aaa;
+  }
+  
+  .post-image {
+    max-width: 100%;
+  }
+  
+  footer {
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+  }
+  
+  .description {
+    margin-top: 10px;
+  }
+  
+  .description p {
+    font-size: 0.9rem;
+    color: black;
+    line-height: 1.5;
+  }
